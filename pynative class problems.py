@@ -6,3 +6,6 @@ class Vehicle:
         self.mileage = mileage
 
 Bus = Vehicle('School Volvo', 180, 12)
+
+print(f'Vehicle Name: {Bus.name} Speed: {Bus.max_speed} Mileage: {Bus.mileage}')
+      
